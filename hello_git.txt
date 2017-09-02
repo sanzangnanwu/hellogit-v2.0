@@ -5,4 +5,6 @@ hello git
 ----------
 add
 ----------
+just add not commit
+----------
 end line
