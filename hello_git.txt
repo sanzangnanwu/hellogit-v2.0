@@ -7,7 +7,13 @@ add
 ----------
 just add not commit
 ----------
-checkout -- file 将工作区（working）中的
+git checkout -- file 将工作区（working）中的
 内容撤销为暂存区（index）的内容
+----------
+git reset head file 将暂存区（index）中的内容
+撤销到工作区（working）中
+----------
+git reset head version（版本号）命令可以直接
+回退版本，即从repository中撤销版本
 ----------
 end line
